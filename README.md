@@ -1,4 +1,4 @@
-# Trinetra person detection feature
+# Trinetra person detection feature 
 
 This feature detects people (COCO class `person`) in still images, uploaded videos, saved video files, or a live webcam feed. It uses the included `yolov8n.pt` YOLOv8 nano weights. The Streamlit app can display and download annotated image/video results; the two command-line scripts cover local video and webcam use.
 
@@ -40,7 +40,7 @@ python person_webcam.py
 ```
 
 For a different camera index or detection threshold, use `--camera 1` or `--confidence 0.6`. If the model is stored elsewhere, pass `--model C:\path\to\yolov8n.pt`.
-
+## More Coming Soon....
 ## Notes
 
 - On first run, PyTorch/Ultralytics may take time to initialize. The app loads the local model once and reuses it while the Streamlit process is running.
